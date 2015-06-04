@@ -1,0 +1,36 @@
+[user]
+	name = raylene
+	email = rayleney@cs.stanford.edu
+[credential]
+	helper = osxkeychain
+[core]
+	editor = vim
+	excludesfile = ~/.gitglobalignore
+[web]
+	browser = google-chrome
+[alias]
+        st = status
+        ci = commit
+        br = branch
+        co = checkout
+        df = diff
+        lg = log -p
+        pom = push origin master
+        pr = pull --rebase
+        amen = commit -a --amend
+[color "branch"]
+       current = yellow bold
+       local = green bold
+       remote = cyan bold
+[color "diff"]
+       meta = yellow bold
+       frag = magenta bold
+       old = red bold
+       new = green bold
+       whitespace = red reverse
+[color "status"]
+       added = green bold
+       changed = yellow bold
+       untracked = red bold
+[commit]
+	template = /Users/rayleney/.gitmessage.txt
